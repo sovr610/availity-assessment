@@ -31,6 +31,8 @@
 4. Whithin the directory `C-sharp/LispChecker` is where you will find the `LispChecker` .NET project. This project allows you to enter a string within the console
 application that represents LISP code. The program will validate if the parentheses are properly closed and nested.
 
+5. Within the folder `Angular/registration` is where the registration form is located. Just run `npm install` and after `ng serve` within that folder to start up the angular application. To view the application go to your browser at address `http://localhost:4200`.
+
 6. Within the directory `C-sharp/insuranceCompanySorter` is where the C# application lays for organizing CSV files by splitting up info on each enrollee based on the insurance company
 associated to the account. Additional get rid of duplicate data and pick the enrollee with a higher version number, along with sorted by lastname and firstname. 
 
