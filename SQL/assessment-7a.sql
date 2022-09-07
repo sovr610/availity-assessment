@@ -1,0 +1,1 @@
+SELECT * FROM [dbo].[Customer] Where FirstName LIKE 'S%' order by FirstName desc
