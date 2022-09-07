@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8HwN6P6pgRUEaKZluY79nP/L13YYbUaKNIHzmFVse59zYwwjW7CCXNSSkM6JpobLPu7Y1/pQ5WWoO/zF/Ktigg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sovr6\\OneDrive\\Desktop\\availity\\C-sharp\\InsuranceCompanySorter\\InsuranceCompanySorter\\InsuranceCompanySorter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sovr6\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
+    "C:\\Users\\Sovr6\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
+    "C:\\Users\\Sovr6\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
