@@ -27,3 +27,6 @@
   - Availity is a service that helps your provider, also known as your doctor, to get the best healthcare plans for you and to manage easier transactions between you and your provider. 
 
 ## code project index
+
+4. Whithin the directory `C-sharp/LispChecker` is where you will find the `LispChecker` .NET project. This project allows you to enter a string within the console
+application that represents LISP code. The program will validate if the parentheses are properly closed and nested.
