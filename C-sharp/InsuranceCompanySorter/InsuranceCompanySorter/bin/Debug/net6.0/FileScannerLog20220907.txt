@@ -1,0 +1,13 @@
+2022-09-07 12:38:14.519 -04:00 [ERR] There was an issue with reading the file: C:\Users\Sovr6\OneDrive\Desktop\insurance-company\InsuranceCompanySorter\InsuranceCompanySorter\bin\Debug\net6.0\test\testFile-a.csv
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at InsuranceCompanySorter.FileScanner.scanFiles() in C:\Users\Sovr6\OneDrive\Desktop\insurance-company\InsuranceCompanySorter\InsuranceCompanySorter\FileScanner.cs:line 46
+2022-09-07 12:38:14.901 -04:00 [ERR] There was an issue with reading the file: C:\Users\Sovr6\OneDrive\Desktop\insurance-company\InsuranceCompanySorter\InsuranceCompanySorter\bin\Debug\net6.0\test\testFile-b.csv
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at InsuranceCompanySorter.FileScanner.scanFiles() in C:\Users\Sovr6\OneDrive\Desktop\insurance-company\InsuranceCompanySorter\InsuranceCompanySorter\FileScanner.cs:line 46
+2022-09-07 14:37:25.480 -04:00 [WRN] the insurance:  insurancea file already exists. Tried to generate csv file: C:\Users\Sovr6\OneDrive\Desktop\insurance-company\InsuranceCompanySorter\InsuranceCompanySorter\bin\Debug\net6.0\test\organizedDocuments\insurancea.csv
+2022-09-07 14:37:25.530 -04:00 [WRN] the insurance:  insuranceb file already exists. Tried to generate csv file: C:\Users\Sovr6\OneDrive\Desktop\insurance-company\InsuranceCompanySorter\InsuranceCompanySorter\bin\Debug\net6.0\test\organizedDocuments\insuranceb.csv
+2022-09-07 14:37:25.531 -04:00 [WRN] the insurance:  insurancec file already exists. Tried to generate csv file: C:\Users\Sovr6\OneDrive\Desktop\insurance-company\InsuranceCompanySorter\InsuranceCompanySorter\bin\Debug\net6.0\test\organizedDocuments\insurancec.csv
