@@ -1,0 +1,10 @@
+#mainDiv {
+  width:30%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+
+button {
+  margin: 3px 3px 3px 3px;
+}

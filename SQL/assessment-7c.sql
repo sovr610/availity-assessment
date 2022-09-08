@@ -1,4 +1,4 @@
-SELECT Customer.FirstName, Customer.LastName, COALESCE(OrderLine.Cost, 0) * COALESCE(OrderLine.Quantity,0) AS Cost FROM [dbo].[Customer] 
+SELECT Customer.FirstName, Customer.LastName, COALESCE(OrderLine.Cost, 0) AS Cost FROM [dbo].[Customer] 
 LEFT JOIN [dbo].[Order]
 on [Order].CustomerID = Customer.CustID
 LEFT JOIN [dbo].[OrderLine]

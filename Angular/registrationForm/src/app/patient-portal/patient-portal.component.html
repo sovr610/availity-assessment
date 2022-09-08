@@ -1,0 +1,68 @@
+
+<div class="container" id="mainDiv">
+  <div class="row">
+    <div class="col">
+      <h2>Registraion</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <input type="text" id="FirstName" name="firstName" #name="ngModel" required class="form-control" [(ngModel)]="firstName" placeholder="first name">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input type="text" id="LastName" required class="form-control" [(ngModel)]="lastName" placeholder="last name">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <label for="npi">NPI Number</label>
+        <input type="text" id="npi" required class="form-control" [(ngModel)]="npiNumber" placeholder="NPI number">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <label for="busAddr">Business Address</label>
+        <input type="text" id="busAddr" required class="form-control" [(ngModel)]="businessAddress" placeholder="business address">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <label for="tele">Telephone Number</label>
+        <input type="tel" id="tele" required class="form-control" [(ngModel)]="telephone" placeholder="1-800-5555-5555">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="type" id="email" required class="form-control" [(ngModel)]="email" placeholder="someone@somewhere.com">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div *ngIf="">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <button id="submitBtn" [disabled]="!allowSubmit" (click)="onSubmit()" type="submit" class="btn btn-success">Submit</button>
+      <button id="resetBtn" (click)="reset()" class="btn btn-secondary">Reset</button>
+    </div>
+  </div>
+</div>
